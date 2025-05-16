@@ -134,7 +134,7 @@ export function DateRangePicker() {
             }}
             numberOfMonths={2}
             disabled={(date) => {
-              // Only allow selecting dates within the available data range
+              // Only allow selecting dates within the available data  range  
               if (!fullDateRange) return false;
               const [minDate, maxDate] = fullDateRange;
               return date < minDate || date > maxDate;
